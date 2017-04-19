@@ -1,0 +1,12 @@
+body {
+    background-color: #f8f8f8;
+}
+
+.menu {
+    list-style-type: none;
+}
+.menu__link {
+    color: red;
+    font-size: 12px;
+    font-family: sans-serif;
+}
