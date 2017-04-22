@@ -6,6 +6,29 @@ body {
     list-style-type: none;
 }
 
+.header {
+    /*border: 1px solid red;*/
+    /*background-color: white;*/
+}
+
+.logo {
+    vertical-align: bottom;
+    /*display: block;*/
+}
+
+.menu {
+    padding: 0px;
+}
+
+.menu, .menu__item {
+    display: inline;
+}
+
+.menu__item {
+    /*margin-left: 1em;*/
+    padding-left: 1em;
+}
+
 .menu__link {
     color: red;
     font-size: 12px;
@@ -42,7 +65,7 @@ body {
     list-style-image: url(images/list-item-arrow@15px.png);
     font-size: 16px;
     font-style: oblique;
-    /*font-variant: small-caps;*/c
+    /*font-variant: small-caps;*/
 }
 
 .product-image {
