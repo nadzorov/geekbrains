@@ -85,11 +85,27 @@ body {
     border-color: transparent;
 }
 
+.contacts-form {
+    width: 250px;
+    text-align: right;
+}
+
 .contacts-form input {
     height: 15px;
     width: 150px;
     color: blue;
     font-size: 10px;
+    margin-bottom: 2px;
+    /*padding-right: 30px;*/
+}
+
+.contacts-form input, .contacts-form textarea {
+    text-transform: capitalize;
+}
+
+.contacts-form__email:focus {
+    color: white;
+    background-color: black;
 }
 
 .product-features-table, .product-features-table__cell {
