@@ -5,10 +5,15 @@ body {
 .menu {
     list-style-type: none;
 }
+
 .menu__link {
     color: red;
     font-size: 12px;
     font-family: sans-serif;
+}
+
+.menu__link:hover {
+    color: blue;
 }
 
 .product-heading {
