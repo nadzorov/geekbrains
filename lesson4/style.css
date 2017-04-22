@@ -74,6 +74,11 @@ body {
     border-width: 2px;
 }
 
+.product-image:hover {
+    /*border-style: none;*/
+    border-color: transparent;
+}
+
 .contacts-form input {
     height: 15px;
     width: 150px;
