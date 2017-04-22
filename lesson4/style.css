@@ -80,3 +80,15 @@ body {
     color: blue;
     font-size: 10px;
 }
+
+.product-features-table, .product-features-table__cell {
+    border: 1px solid black;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 0.3em;
+}
+th.product-features-table__cell {
+    height: 2em;
+    text-align: center;
+}
