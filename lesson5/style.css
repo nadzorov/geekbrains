@@ -86,10 +86,15 @@ body {
 
 .menu__link:hover {
     background-color: lightblue;
+    color: blue;
 }
 
-.menu__link:hover {
-    color: blue;
+.container {
+    width: 600px;
+    /*padding: 15px;*/
+    margin: 0 auto;
+    /*text-align: center;*/
+    /*border-left: 1px solid black;*/
 }
 
 .product-heading {
@@ -171,4 +176,23 @@ body {
 th.product-features-table__cell {
     height: 2em;
     text-align: center;
+}
+
+hr {
+    margin: 3px 0;
+    /*padding: 0px;*/
+    /*-webkit-margin-before: 0;*/
+    /*-webkit-margin-after: 0;*/
+    /*border-width: 1px;*/
+}
+
+.footer {
+    /*margin: 5px;*/
+    height: 50px;
+    background-color: lightgray;
+}
+
+.footer__copyright {
+    float: right;
+    padding: 15px 15px 0px 0px;
 }
