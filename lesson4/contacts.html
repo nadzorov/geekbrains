@@ -6,12 +6,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <ul class="menu">
-        <li><a class="menu__link" href="index.html">Главная</a></li>
-        <li><a class="menu__link" href="catalog.html">Каталог</a></li>
-        <li><a class="menu__link" href="contacts.html">Контакты</a></li>
-    </ul>
+    <div class="header">
+        <img class="logo" src="images/logo.jpg" alt="grumpy cat logo" width="100px" height="100px">
+        <ul class="menu">
+            <li class="menu__item"><a class="menu__link" href="index.html">Главная</a></li>
+            <li class="menu__item"><a class="menu__link" href="catalog.html">Каталог</a></li>
+            <li class="menu__item"><a class="menu__link" href="contacts.html">Контакты</a></li>
+        </ul>
+    </div>
     <hr>
     
     <h1>Напишите нам</h1>
@@ -24,16 +26,16 @@
  -->
     <form class="contacts-form" action="">
         <div>
-            <label for="username">Имя</label>
+            <label for="username">Имя:</label>
             <input type="text" name="username">
         </div>
         <div>
             <!-- <label>Email <input type="email" name="email"></label> -->
-            <label for="email">Email</label>
-            <input type="email" name="email">
+            <label for="email">Email:</label>
+            <input class="contacts-form__email" type="email" name="email">
         </div>
         <div>
-            <label for="subject">Тема</label>
+            <label for="subject">Тема:</label>
             <input type="text" name="subject">
         </div>
         <div>
@@ -51,7 +53,8 @@
     <a href="https://yandex.ru/maps/?um=constructor%3A64b82df878159dcaf8f1c0f89aa9d569c7845e29c7a14d13930182e174b5d18d&amp;source=constructorStatic" target="_blank"><img src="https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A64b82df878159dcaf8f1c0f89aa9d569c7845e29c7a14d13930182e174b5d18d&amp;width=488&amp;height=265&amp;lang=ru_RU" alt="" style="border: 0;" /></a>
 
     <hr>
-    <p>&copy; Все права защищены</p>
-    
+    <div class="footer">
+        <p>&copy; Все права защищены</p>
+    </div>
 </body>
 </html>

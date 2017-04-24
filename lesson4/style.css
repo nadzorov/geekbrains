@@ -5,10 +5,38 @@ body {
 .menu {
     list-style-type: none;
 }
+
+.header {
+    /*border: 1px solid red;*/
+    /*background-color: white;*/
+}
+
+.logo {
+    vertical-align: bottom;
+    /*display: block;*/
+}
+
+.menu {
+    padding: 0px;
+}
+
+.menu, .menu__item {
+    display: inline;
+}
+
+.menu__item {
+    /*margin-left: 1em;*/
+    padding-left: 1em;
+}
+
 .menu__link {
     color: red;
     font-size: 12px;
     font-family: sans-serif;
+}
+
+.menu__link:hover {
+    color: blue;
 }
 
 .product-heading {
@@ -33,11 +61,17 @@ body {
     text-align: left;
 }
 
+.short-description:first-letter, .description:first-letter {
+    color: red;
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+
 .product-features-list {
     list-style-image: url(images/list-item-arrow@15px.png);
     font-size: 16px;
     font-style: oblique;
-    /*font-variant: small-caps;*/c
+    /*font-variant: small-caps;*/
 }
 
 .product-image {
@@ -46,9 +80,42 @@ body {
     border-width: 2px;
 }
 
+.product-image:hover {
+    /*border-style: none;*/
+    border-color: transparent;
+}
+
+.contacts-form {
+    width: 250px;
+    text-align: right;
+}
+
 .contacts-form input {
     height: 15px;
     width: 150px;
     color: blue;
     font-size: 10px;
+    margin-bottom: 2px;
+    /*padding-right: 30px;*/
+}
+
+.contacts-form input, .contacts-form textarea {
+    text-transform: capitalize;
+}
+
+.contacts-form__email:focus {
+    color: white;
+    background-color: black;
+}
+
+.product-features-table, .product-features-table__cell {
+    border: 1px solid black;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 0.3em;
+}
+th.product-features-table__cell {
+    height: 2em;
+    text-align: center;
 }
