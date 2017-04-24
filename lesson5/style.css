@@ -2,37 +2,90 @@ body {
     background-color: #f8f8f8;
 }
 
-.menu {
-    list-style-type: none;
-}
-
 .header {
-    /*border: 1px solid red;*/
+    /*border: 1px solid green;*/
     /*background-color: white;*/
+    /*height: 100px;*/
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo {
-    vertical-align: bottom;
+    /*vertical-align: bottom;*/
     /*display: block;*/
+    /*display: flex;*/
+    padding-left: 10px;
 }
 
+
 .menu {
-    padding: 0px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    /*margin-right: 20px;*/
+    display: flex;
+    /*flex-grow: 1;*/
+    /*align-items: stretch;*/
+    /*justify-content: space-around;*/
+    /*justify-content: center;*/
+    /*text-align: center;*/
+    /*height: 50px;*/
+    /*height: 100%;*/
+    /*flex-grow: 1;*/
 }
 
 .menu, .menu__item {
-    display: inline;
+    /*display: inline-block;*/
+    /*box-sizing: border-box;*/
+    /*display: flex;*/
 }
 
 .menu__item {
     /*margin-left: 1em;*/
-    padding-left: 1em;
+    /*display: inline-block;*/
+    /*padding-left: 1em;*/
+    /*border: 1px solid red;*/
+    /*height: 100%;*/
+    width: 100px;
+    display: flex;
+    flex-grow: 1;
+    border-left: 1px solid lightblue;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*text-align: center;*/
+    /*justify-content: center;*/
+    /*text-align: center;*/
+    /*padding: 0 auto;*/
+    /*padding-top: auto;*/
+    /*padding-bottom: auto;*/
+    /*margin: auto;*/
+    /*flex-direction: row;*/
+    /*flex-grow: 1;*/
+}
+
+.menu__item:first-child {
+    border-left: none;
 }
 
 .menu__link {
+    /*border: 1px solid black;*/
     color: red;
     font-size: 12px;
     font-family: sans-serif;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    /*align-content: center;*/
+    align-items: center;
+    /*text-align: center;*/
+    /*text-align: center;*/
+    /*padding: 20px;*/
+    /*padding: auto;*/
+    /*height: 100%;*/
+}
+
+.menu__link:hover {
+    background-color: lightblue;
 }
 
 .menu__link:hover {
