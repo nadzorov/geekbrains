@@ -1,0 +1,146 @@
+body {
+    background-color: #f8f8f8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding-left: 10px;
+}
+
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu, .menu__item {
+}
+
+.menu__item {
+    width: 100px;
+    display: flex;
+    flex-grow: 1;
+    border-left: 1px solid lightblue;
+}
+
+.menu__item:first-child {
+    border-left: none;
+}
+
+.menu__link {
+    color: red;
+    font-size: 12px;
+    font-family: sans-serif;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu__link:hover {
+    background-color: lightblue;
+    color: blue;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.product-heading {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.short-description {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.description {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.short-description:first-letter, .description:first-letter {
+    color: red;
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+
+.product-features-list {
+    list-style-image: url(images/list-item-arrow@15px.png);
+    font-size: 16px;
+    font-style: oblique;
+}
+
+.product-image {
+    border-style: solid;
+    border-color: red;
+    border-width: 2px;
+}
+
+.product-image:hover {
+    border-color: transparent;
+}
+
+.contacts-form {
+    width: 250px;
+    text-align: right;
+}
+
+.contacts-form input {
+    height: 15px;
+    width: 150px;
+    color: blue;
+    font-size: 10px;
+    margin-bottom: 2px;
+}
+
+.contacts-form input, .contacts-form textarea {
+    text-transform: capitalize;
+}
+
+.contacts-form__email:focus {
+    color: white;
+    background-color: black;
+}
+
+.product-features-table, .product-features-table__cell {
+    border: 1px solid black;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 0.3em;
+}
+th.product-features-table__cell {
+    height: 2em;
+    text-align: center;
+}
+
+hr {
+    margin: 3px 0;
+}
+
+.footer {
+    height: 50px;
+    background-color: lightgray;
+}
+
+.footer__copyright {
+    float: right;
+    padding: 15px 15px 0px 0px;
+}
